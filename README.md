@@ -10,13 +10,20 @@ No refactoring yet.
 Official reddit post https://redd.it/4l86wr
 
 
+
+
+
+
+
 Controls
+
 _________________________________________________________________________
 
 NUMPAD_0 to open
 
 NUMPAD_9 to exit programm
 _________________________________________________________________________
+
 
 
 - Check out the colors.txt to give it your own looks !
