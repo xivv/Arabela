@@ -1,0 +1,10 @@
+
+Colortable: http://www.rapidtables.com/web/color/RGB_Color.htm
+
+#LiveColor = <0,128,255>
+#GameOverColor = <0,255,128>
+#OncomingColor = <255,128,0>
+#DrawColor = <192,192,192>
+#WarningColor = <153,0,0>
+#PostponedColor = <0,102,51>
+#BackgroundColor = <0,0,0>

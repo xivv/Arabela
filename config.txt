@@ -1,0 +1,41 @@
+ProphetView / Arabela
+
+#showEventName = 'false'
+
+#showGamesComing = 'true'
+
+#showGamesLive = 'true'
+
+#showGamesOver = 'true'
+
+#showAdvancedScoreLive = 'true'
+
+#showAdvancedScoreOver = 'false'
+
+#showOnlyPositiveScores = 'true'
+
+#showLineUpInConsole = 'false'
+
+#showTimeLeft = 'true'
+
+#showBackground = 'true'
+
+#updateTime = '120000'
+
+#fontSize = '12'
+
+
+// RED = RULE15 or Teamname wrong ( old lineup @invite )
+// GREEN = LIVE
+// BLUE = ONCOMMING
+// GRAY = GAMEOVER
+// ORANGE = DRAW
+// MAGENTA = POSTPONED
+
+Made by @Saverio Mancuso
+
+Facebook>> https://www.facebook.com/saviiz
+
+GitHub>> https://github.com/xivv/ProphetView
+
+Steam>> http://steamcommunity.com/id/saviiyo/
