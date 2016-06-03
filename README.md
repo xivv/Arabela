@@ -1,7 +1,9 @@
 # Arabela
 Counterstrike E-Sports Gametracker
 
-![Alt text](http://images.akamai.steamusercontent.com/ugc/276221870396643092/7D06EEF9F44C1BEC8DADF67D5741868E77DEB6F1/ "Screenshot")
+![Alt text](http://images.akamai.steamusercontent.com/ugc/276221870396643092/7D06EEF9F44C1BEC8DADF67D5741868E77DEB6F1/ "Screenshot1")
+
+![Alt text](http://grabilla.com/06602-176038cf-8140-4111-ab53-e04ee34170e3.html "Screenshot1")
 
 Written in Java only.
 
