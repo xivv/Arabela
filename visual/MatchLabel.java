@@ -59,7 +59,7 @@ public class MatchLabel extends JLabel {
 			}
 			if (!Options.showAdvancedScoreOver) {
 				score = match.getScore();
-				if (score == "" && match.format.contains("BO1"))
+				if (score.equals("") && match.format.contains("BO1"))
 					score = match.getBO1Score();
 			} else {
 				score = match.getScore99();
