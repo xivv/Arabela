@@ -87,10 +87,12 @@ public class Match {
 
 		Matcher matcher = StringPattern.bo1ScorePattern.matcher(score);
 
-		if (matcher.find())
+		if (matcher.find()) {
 			score = matcher.group(1) + "|";
-
-		return score;
+			return score;
+                }
+                
+		return "#";
 	}
 
 	public String getScore() {
