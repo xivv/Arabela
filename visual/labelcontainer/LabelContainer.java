@@ -30,7 +30,7 @@ public class LabelContainer {
 			if (label.getLength() >= Overlay.getLength())
 				Overlay.setLength(label.getLength());
 
-			if (label.getText() != "")
+			if (!label.getText().equals(""))
 				Overlay.setLabelHeight(Overlay.getLabelHeight() + 1);
 
 			label.setLocation(10, y);
