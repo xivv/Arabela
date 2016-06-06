@@ -6,6 +6,23 @@ import java.util.Scanner;
 
 public class Reader {
 
+
+        public String getFileData(String dataName) {
+
+		StringBuffer buffer = new StringBuffer();
+
+		try (Scanner sc = new Scanner(new File(dataName))) {
+
+			while (sc.hasNextLine()) {
+				buffer.append(sc.nextLine() + "\n");
+			}
+		} catch (FileNotFoundException e) {
+			System.err.print(dataName + " not found");
+		}
+
+		return buffer.toString();
+	}
+	
 	public static File getExternalConfig() {
 		return new File("config.txt");
 
