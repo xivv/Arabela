@@ -153,7 +153,7 @@ public class Loader {
 							team2Percent, team1Won, team2Won, eventLogo,matchComment));
 				}
 			} catch (Exception e) {
-
+                        System.out.println(e.getMessage());
 			}
 		}
 
