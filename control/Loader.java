@@ -161,35 +161,34 @@ public class Loader {
 
 	}
 
-	public String getStrFromUrl(String surl) {
+public String getStrFromUrl(String surl) {
 
 		final String userAgent = "Mozilla/5.0 (Windows; U; Windows NT 5.1; de; rv:1.8.1.12) Gecko/20080201 Firefox/2.0.0.12";
-                final BufferedReader in;
+
 		try {
 			URL url = new URL(surl);
 			URLConnection conn = url.openConnection();
 			conn.addRequestProperty("User-Agent", userAgent);
-
-			in = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-			String str;
 			StringBuilder builder = new StringBuilder(1024);
-			while ((str = in.readLine()) != null) {
-				builder.append(str);
-				builder.append("\n"); 
+			try (BufferedReader in = new BufferedReader(new InputStreamReader(conn.getInputStream()))) {
+				String str;
+
+				while ((str = in.readLine()) != null) {
+					builder.append(str);
+					builder.append("\n");
+				}
+				in.close();
 			}
-			in.close();
 
 			return builder.toString();
 
 		} catch (MalformedURLException e) {
 			System.out.println(e.getMessage());
-			in.close();
 
 		} catch (IOException e) {
 			System.out.println(e.getMessage());
-			in.close();
 		}
-		in.close();
+
 		return "Error";
 	}
 
