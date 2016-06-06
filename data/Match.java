@@ -90,7 +90,7 @@ public class Match {
 		if (matcher.find())
 			score = matcher.group(1) + "|";
 
-		return "#";
+		return score;
 	}
 
 	public String getScore() {
